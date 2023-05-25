@@ -1,5 +1,5 @@
 import { React } from "react";
-import IMG from "../../imagenes/pcgamer.svg";
+import IMG from "../../imagenes/imgdat/compugamer.jpg";
 
 export const Productositem = ({
   id,
