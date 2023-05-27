@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 import { Header } from "./componentes/Header";
-import 'boxicons';
+import { Carrito } from "./componentes/Carrito";
+import { DataProvider } from "./context/Dataprovider";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Paginas } from "./componentes/Paginas";
-import {DataProvider} from "./context/Dataprovider";
-
+import Pages from "./componentes/Paginas";
+import "boxicons";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Paginas />
+          <Carrito />
+          <Pages />
         </Router>
       </div>
     </DataProvider>

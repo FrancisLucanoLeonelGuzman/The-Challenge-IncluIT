@@ -1,16 +1,12 @@
-import { React } from "react";
-/*import Portada from "../../imagenes/illustrations/hero-desktop.png"; <img src={Portada} alt="Inicio"/> (este codigo va abajo edicion)*/
+import React from "react";
 import { Link } from "react-router-dom";
 
-export const Inicio = () => {
+export default function Inicio() {
   return (
-    <div className="Inicio">
-      <Link to="/">
-        <h1 className="">Inicio</h1>
-      </Link>
-      <Link to="/Productos">
-        <h1 className="">Productos</h1>
+    <div className="inicio">
+      <Link to="/productos">
+        <h1>Productos</h1>
       </Link>
     </div>
   );
-};
+}

@@ -42,7 +42,7 @@ const data = {
       cantidad: 1,
     },
     {
-      id: 7,
+      id: 6,
       title: "Pc Gamer Ryzen 7",
       price: 700,
       image: require("../src/imagenes/imgdat/pcgamer.jpg"),
@@ -50,7 +50,7 @@ const data = {
       cantidad: 1,
     },
     {
-      id: 8,
+      id: 7,
       title: "Reloj Fit Samsung",
       price: 300,
       image: require("../src/imagenes/imgdat/relofit.jpg"),
@@ -58,7 +58,7 @@ const data = {
       cantidad: 1,
     },
     {
-      id: 9,
+      id: 8,
       title: "Refrigeracion Liquida",
       price: 650,
       image: require("../src/imagenes/imgdat/refrigeracionliquida.jpg"),
@@ -66,7 +66,7 @@ const data = {
       cantidad: 1,
     },
     {
-      id: 10,
+      id: 9,
       title: "Reloj Samsung",
       price: 500,
       image: require("../src/imagenes/imgdat/reloj-samung.jpg"),
@@ -74,7 +74,7 @@ const data = {
       cantidad: 1,
     },
     {
-      id: 11,
+      id: 10,
       title: "Remera",
       price: 150,
       image: require("../src/imagenes/imgdat/remeragamer.jpg"),
