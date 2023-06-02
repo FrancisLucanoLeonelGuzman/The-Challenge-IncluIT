@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { DataContext } from "../../context/Dataprovider";
 import { Link } from "react-router-dom";
-import AERO from "../../imagenes/icons/aerolab-logo-1.svg";
+import IMG from "../../imagenes/icons/aerolab-logo-1.svg";
 
 export const Header = () => {
   const value = useContext(DataContext);
@@ -19,7 +19,7 @@ export const Header = () => {
       </div>
       <Link to="/">
         <div className="logo">
-          <img src={AERO} alt="Nike" width={250} />
+          <img src={IMG} alt="Nike" width={250} />
         </div>
       </Link>
       <ul>

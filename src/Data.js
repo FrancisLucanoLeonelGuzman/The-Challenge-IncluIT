@@ -70,7 +70,7 @@ const data = {
       title: "Reloj Samsung",
       price: 500,
       image: require("../src/imagenes/imgdat/reloj-samung.jpg"),
-      category: "nike",
+      category: "reloj",
       cantidad: 1,
     },
     {

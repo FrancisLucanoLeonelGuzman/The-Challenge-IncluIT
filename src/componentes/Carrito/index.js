@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Card from "../../imagenes/imgdat/pcgamer.jpg";
+import Card from "../../imagenes/imgdat/relofit.jpg";
 import { DataContext } from "../../context/Dataprovider";
 
 export const Carrito = () => {
@@ -50,11 +50,11 @@ export const Carrito = () => {
         <div onClick={tooglefalse} className="carrito__close">
           <box-icon name="x"></box-icon>
         </div>
-        <h2>Su Carrito</h2>
+        <h2>SU CARRITO</h2>
         <div className="carrito__center">
           {carrito.length === 0 ? (
             <h2 style={{ textAlign: "center", fontSize: "3rem" }}>
-              Carrito Vacio
+              CARRITO VACIO
             </h2>
           ) : (
             <>
@@ -70,12 +70,14 @@ export const Carrito = () => {
                       onClick={() => increase(producto.id)}
                       name="up-arrow"
                       type="solid"
+                      className="arrow"
                     />
                     <p className="cantidad">{producto.cantidad}</p>
                     <box-icon
                       onClick={() => reduce(producto.id)}
                       name="down-arrow"
                       type="solid"
+                      className="arrow"
                     />
                   </div>
                   <div
@@ -92,8 +94,8 @@ export const Carrito = () => {
         </div>
 
         <div className="carrito__footer">
-          <h3>Total: ${total}</h3>
-          <button className="btn">Payment</button>
+          <h3>TOTAL: ${total}</h3>
+          <button className="btn">COMPRAR</button>
         </div>
       </div>
     </div>
